@@ -41,35 +41,35 @@
     <h1 class="display-1">Justify content</h1>
     <br>
     <!-- justify-content-center -->
-    <div class="row">
+    <div class="row justify-content-center">
       <div class="col-2">1</div>
       <div class="col-2">2</div>
       <div class="col-2">3</div>
     </div>
     <br>
     <!-- justify-content-start -->
-    <div class="row">
+    <div class="row justify-content-start">
       <div class="col-2">1</div>
       <div class="col-2">2</div>
       <div class="col-2">3</div>
     </div>
     <br>
     <!-- justify-content-end -->
-    <div class="row">
+    <div class="row justify-content-end">
       <div class="col-2">1</div>
       <div class="col-2">2</div>
       <div class="col-2">3</div>
     </div>
     <br>
     <!-- justify-content-between -->
-    <div class="row">
+    <div class="row justify-content-between">
       <div class="col-2">1</div>
       <div class="col-2">2</div>
       <div class="col-2">3</div>
     </div>
     <br>
     <!-- justify-content-around -->
-    <div class="row">
+    <div class="row justify-content-around">
       <div class="col-2">1</div>
       <div class="col-2">2</div>
       <div class="col-2">3</div>
@@ -84,19 +84,19 @@
     <h1 class="display-1">Align items</h1>
     <br>
     <!-- align-items-center -->
-    <div class="row">
+    <div class="row align-items-center">
       <div class="col">1</div>
       <div class="col">2</div>
       <div class="col">3</div>
     </div>
     <br>
-    <div class="row">
+    <div class="row align-items-start">
       <div class="col">1</div>
       <div class="col">2</div>
       <div class="col">3</div>
     </div>
     <br>
-    <div class="row">
+    <div class="row align-items-end">
       <div class="col">1</div>
       <div class="col">2</div>
       <div class="col">3</div>
@@ -111,9 +111,9 @@
     <h1 class="display-1">Align Self</h1>
     <br>
     <div class="row align-items-center">
-      <div class="col">1</div>
-      <div class="col">2</div>
-      <div class="col">3</div>
+      <div class="col align-self-start">1</div>
+      <div class="col align-self-center">2</div>
+      <div class="col align-self-end">3</div>
     </div>
   </div>
 
@@ -124,8 +124,8 @@
   <h1 class="display-1">Gutters</h1>
 
   <!-- gx gy 1 to 5 : px-4 or overflow-hidden  / g-0 : no-gutters -->
-  <div class="container">
-    <div class="row">
+  <div class="container px-4">
+    <div class="row gx-5">
       <div class="col">
         <section>1</section>
       </div>
@@ -137,8 +137,8 @@
 
   <br>
 
-  <div class="container">
-    <div class="row">
+  <div class="container overflow-hidden">
+    <div class="row g-3">
       <div class="col-6">
         <section>1</section>
       </div>
@@ -157,8 +157,8 @@
   <br>
 
   <!-- Multiple gutters -->
-  <div class="container">
-    <div class="row row-cols-2 row-cols-lg-5">
+  <div class="container overflow-hidden">
+    <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
       <div class="col">
         <section>1</section>
       </div>
